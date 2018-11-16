@@ -25,7 +25,7 @@ inventory.
 ### After testing is up ... 
 
 * no force pushes to master!!!
-* all changes as PRs 
+* all changes as PRs
 
 ## Step #2 Do https://github.com/kelseyhightower/kubernetes-the-hard-way
 
@@ -42,14 +42,14 @@ inventory.
 
 ## Step #6 Look at and discuss potential next steps
 
+* What potential solutions for persistent storage should we look at?
 * Pre-build images for the Terraform step using Packer tooling
 * Use Jerakia as a data provider for both TF and Ansible
-
 
 ### Kubernetes design choices TBD
 
 * Support external lb in front of cluster
+* Do not support persistent storage for now
 * Traefik as the ingress controller
 * Calico CNI plugin for networking/policy
-
 
