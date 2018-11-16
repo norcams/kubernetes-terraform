@@ -2,7 +2,9 @@
 
 ## Etherpad collab space
 
-https://etherpad.openstack.org/p/kubenordics
+
+* Slack at https://cloud-operators-ch.slack.com
+* Etherpad https://etherpad.openstack.org/p/kubenordics
 
 We are trying to create code to deploy kubernetes clusters across various
 infrastructure-providers.
